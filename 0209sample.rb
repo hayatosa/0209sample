@@ -25,3 +25,9 @@ else
 end
 
 puts "nameのデータがあります" if params[:address]
+
+params[:age] = 30
+puts params
+
+params.delete(:mail)
+puts params
